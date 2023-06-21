@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.sidebar{
+    height: 120vh;
+    width: 100%;
+    background-image: url(anime1.jpg);
+    background-size:cover;
+    background-position:center;
+}
+nav img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    padding-left: px;
+}
+ nav ul{
+    margin-left: 500px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    font-size: 18px;
+    background-color: rgba(44, 38, 38, 0.728);
+    position:relative;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(80, 71, 71);
+    transition: .4s;
+}
+nav h2{
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+ nav span{
+    color: rgb(20, 134, 134);
+    font-size: 40px;
+    font-weight: 10%;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+ h1{
+       font-size: 60px;
+}
+ h3{
+    font-size: 25px;
+}
+.email{
+    margin-top: 50px;
+}
+.email input{
+    width: 250px;
+    height: 35px;
+    font-size: 19px;
+    font-weight: lighter;
+    padding-left: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color:  rgb(54, 218, 183);
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.btn:hover{
+    color: rgba(245, 222, 179, 0.706);
+}
+.content span{
+    color: aqua;
+}
+
+.about{
+    background-color:  #191919;
+}
+.about img{
+    height: 400px;
+    width: 500px;
+}
+.abouttext{
+    width: 550px;
+}
+.maincontent{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.abouttext h1{
+    color: rgb(195, 207, 36);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.abouttext h5{
+    color: rgb(248, 248, 168);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.abouttext p{
+    color: bisque;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+.Work{
+    background-color:  #101010;
+    width: 100%;
+    padding: 10px 100px;
+}
+.title h2{
+    padding-top: 50px;
+    font-size: 50px;
+    padding-left: 55px;
+    display:inline-flex;
+}
+.box{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-width: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 50px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card h4{
+    font-size: 30px;
+    color:rgb(29, 210, 183);
+}
+.card p{
+    font-size: 20px;
+    color: rgb(186, 198, 196);
+}
+.card a{
+    font-size: 20px;
+}
+.head{
+    padding-top: 50px;
+}
+.contact{
+    height: 365px;
+    width: 335px;
+    padding: 5px 35px;
+    background: #191919;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}  
+.contact-left p {
+    padding-top: 5px;
+    padding-left: 1px;
+    font-size: 15px;
+    color:rgb(214, 243, 243);
+}
+.contact-left svg{
+    padding-left: 1px;
+}
+.socialmedia{
+    padding-left: 350px;
+    padding-right: 5px;
+}
+.socialmedia ul li{
+   list-style: none;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+form{
+    padding-top: 20px;
+}
+
+.form input{
+    border: none;
+    border: 1px rgb(9, 12, 12) solid;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+.form textarea{
+    border: none;
+    border:1px#101010 solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: black;
+}
+.form button{
+    width: 100px;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(54, 218, 183);
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+ .tact{
+    margin-left: 450px;
+}
+footer{
+    background-color: rgb(83, 171, 141);;
+    border: none;
+    border-radius: 10px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 200px;
+    padding: 20px 50px 10px;
+   justify-content: center;
+}
+.resume a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
