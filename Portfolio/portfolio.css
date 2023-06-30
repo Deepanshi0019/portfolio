@@ -4,8 +4,11 @@
     box-sizing: border-box;
     color: aliceblue;
 }
+body{
+    background-color: #000000c9;
+}
 .sidebar{
-    height: 120vh;
+    height: 50rem;
     width: 79rem;
     background-image: url(anime1.jpg);
     background-size:cover;
@@ -14,20 +17,18 @@
 nav img{
     height: 50px;
     width: 50px;
-    border-radius: 30px;
-    padding-left: px;
+    border-radius: 30px; 
+    margin-left: auto;
 }
- nav ul{
-    margin-left: 500px;
-}
+ 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 20px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
     font-size: 18px;
     background-color: rgba(44, 38, 38, 0.728);
     position:relative;
@@ -35,7 +36,7 @@ nav{
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 1rem 1rem;
 
 }
 nav ul li a{
@@ -52,6 +53,7 @@ nav h2{
     font-size: 25px;
     font-style: italic;
     text-decoration: underline;
+    padding-right: 600px;
 }
  nav span{
     color: rgb(20, 134, 134);
@@ -60,11 +62,14 @@ nav h2{
 }
 .content{
     position: absolute;
-    top: 40%;
-    left: 8%;
+    top: 18rem;
+    left: 5rem;
 }
  h1{
        font-size: 60px;
+}
+.gap{
+    padding-top: 1rem;
 }
  h3{
     font-size: 25px;
@@ -102,13 +107,14 @@ nav h2{
 
 .about{
     background-color:  #191919;
+    width: 79rem;
 }
 .about img{
     height: 400px;
     width: 500px;
 }
 .abouttext{
-    width: 550px;
+    padding-left: 2rem;
 }
 .maincontent{
     width: 1130px;
@@ -142,14 +148,17 @@ nav h2{
 
 .Work{
     background-color:  #101010;
-    width: 100%;
+    width: 79rem;
     padding: 10px 100px;
 }
 .title h2{
     padding-top: 50px;
     font-size: 50px;
-    padding-left: 55px;
+    padding-left: 3.5rem;
     display:inline-flex;
+}
+.tact{
+    margin-left: 26rem;
 }
 .box{
     display: flex;
@@ -249,9 +258,7 @@ form{
     margin-top: 20px;
     margin-left: 10px;
 }
- .tact{
-    margin-left: 450px;
-}
+ 
 footer{
     background-color: rgb(83, 171, 141);;
     border: none;
@@ -269,10 +276,3 @@ footer{
     font-size: 20px;
     font-weight: bolder;
 }
-
-
-
-
-
-
-
